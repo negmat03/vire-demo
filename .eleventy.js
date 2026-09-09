@@ -21,7 +21,10 @@ module.exports = function (eleventyConfig) {
     return `<span data-fi="${esc(fi)}" data-en="${esc(en)}">${fi}</span>`;
   });
 
+  // In locale il sito sta sulla radice; per GitHub Pages serve il prefisso
+  // della sottocartella. Lo passa lo script "build:pages" in package.json.
   return {
+    pathPrefix: process.env.PATH_PREFIX || "/",
     dir: { input: "src", output: "docs", includes: "_includes", data: "_data" },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",

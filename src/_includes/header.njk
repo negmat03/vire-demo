@@ -1,10 +1,10 @@
 <header class="bar">
   <div class="in">
-    <a class="mark" href="/">{{ site.insegna }}</a>
+    <a class="mark" href="{{ '/' | url }}">{{ site.insegna }}</a>
     <nav class="links">
-      <a href="/palvelut/">{{ "Palvelut ja hinnasto" | t("Services & prices") | safe }}</a>
-      <a href="/meista/">{{ "Meistä" | t("About") | safe }}</a>
-      <a href="/yhteystiedot/">{{ "Yhteystiedot" | t("Contact") | safe }}</a>
+      <a href="{{ '/palvelut/' | url }}">{{ "Palvelut ja hinnasto" | t("Services & prices") | safe }}</a>
+      <a href="{{ '/meista/' | url }}">{{ "Meistä" | t("About") | safe }}</a>
+      <a href="{{ '/yhteystiedot/' | url }}">{{ "Yhteystiedot" | t("Contact") | safe }}</a>
     </nav>
     <a class="tel" href="tel:{{ site.telefono }}">{{ site.telefono_visibile }}</a>
     <div class="lang" role="group" aria-label="Kieli / Language">
