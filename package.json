@@ -1,0 +1,12 @@
+{
+  "name": "sito-locale",
+  "version": "1.0.0",
+  "description": "Template Eleventy per siti di attivita' locali",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

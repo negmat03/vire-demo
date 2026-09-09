@@ -1,0 +1,22 @@
+---
+layout: base.njk
+permalink: /
+title: Kampaamo Riihimäki
+description: "Kampaamo Vire, Hämeenkatu 41 Riihimäki. Leikkaus, väri ja balayage. Väri alkaen 85 €, lauantaisin auki."
+---
+<div class="hero">
+  <h1 class="wordmark">Kampaamo<br><em>{{ site.insegna }}</em></h1>
+  <p class="tagline" data-fi="{{ site.claim_fi }} {{ site.indirizzo }}." data-en="{{ site.claim_en }} {{ site.indirizzo }}.">{{ site.claim_fi }} {{ site.indirizzo }}.</p>
+
+  <div class="answers">
+    <div class="ans"><span class="lab k" data-fi="Väri alkaen" data-en="Colour from">Väri alkaen</span><span class="v num">85 €</span></div>
+    <div class="ans"><span class="lab k" data-fi="Lauantaisin" data-en="Saturdays">Lauantaisin</span><span class="v num" data-fi="Auki 9–15" data-en="Open 9–15">Auki 9–15</span></div>
+    <div class="ans"><span class="lab k" data-fi="Ajanvaraus" data-en="Booking">Ajanvaraus</span><span class="v" data-fi="Puhelimitse" data-en="By phone">Puhelimitse</span></div>
+  </div>
+
+  <div class="cta">
+    <a class="btn solid" href="tel:{{ site.telefono }}" data-fi="Soita ja varaa aika" data-en="Call to book">Soita ja varaa aika</a>
+    <a class="btn ghost" href="/palvelut/" data-fi="Katso hinnasto" data-en="See prices">Katso hinnasto</a>
+  </div>
+  <div class="strands" aria-hidden="true"></div>
+</div>

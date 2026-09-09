@@ -1,0 +1,33 @@
+---
+layout: base.njk
+permalink: /yhteystiedot/
+title: Yhteystiedot
+description: "Osoite, aukioloajat ja puhelinnumero."
+---
+<section id="yhteys">
+  <span class="lab">{{ "Yhteystiedot" | t("Contact") | safe }}</span>
+  <h2>{{ "Löydät meidät keskustasta" | t("Find us in the centre") | safe }}</h2>
+  <div class="contact">
+    <div>
+      <span class="lab">{{ "Aukioloajat" | t("Opening hours") | safe }}</span>
+      <div class="hours">
+        {% for o in site.orari %}
+        <div class="r{% if o.chiuso %} closed{% endif %}">
+          <span data-fi="{{ o.fi }}" data-en="{{ o.en }}">{{ o.fi }}</span>
+          <span class="num">{% if o.chiuso %}<span data-fi="Suljettu" data-en="Closed">Suljettu</span>{% else %}{{ o.ore }}{% endif %}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div>
+      <span class="lab">{{ "Käyntiosoite" | t("Address") | safe }}</span>
+      <address class="addr">
+        <strong>{{ site.nome }}</strong>
+        {{ site.indirizzo }}<br>
+        {{ site.cap }} {{ site.citta }}<br>
+        <a href="tel:{{ site.telefono }}">{{ site.telefono_visibile }}</a><br>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </address>
+    </div>
+  </div>
+</section>

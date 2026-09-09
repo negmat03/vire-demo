@@ -1,0 +1,3 @@
+Il file .nojekyll dentro docs/ serve a impedire a GitHub Pages di
+processare il sito con Jekyll. Senza, le cartelle che iniziano con _
+vengono ignorate. Viene ricreato a ogni build.

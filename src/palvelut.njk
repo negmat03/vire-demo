@@ -1,0 +1,20 @@
+---
+layout: base.njk
+permalink: /palvelut/
+title: Hinnasto
+description: "Kampaamon hinnasto Riihimäellä — leikkaus, väri, balayage ja kampaus."
+---
+<section id="palvelut">
+  <span class="lab">{{ "Palvelut" | t("Services") | safe }}</span>
+  <h2>{{ "Hinnasto" | t("Price list") | safe }}</h2>
+  <p class="intro">{{ "Hinnat sisältävät pesun ja muotoilun." | t("Prices include wash and styling.") | safe }}</p>
+
+  <div class="price">
+    {% for s in site.servizi %}
+    <div class="row{% if s.lead %} lead{% endif %}">
+      <div class="nm"><span data-fi="{{ s.fi }}" data-en="{{ s.en }}">{{ s.fi }}</span></div>
+      <div class="pz">{% if s.da %}<i data-fi="alk." data-en="from">alk.</i>{% endif %}<span class="num">{{ s.prezzo }}</span></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

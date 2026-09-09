@@ -1,0 +1,15 @@
+<header class="bar">
+  <div class="in">
+    <a class="mark" href="/">{{ site.insegna }}</a>
+    <nav class="links">
+      <a href="/palvelut/">{{ "Palvelut ja hinnasto" | t("Services & prices") | safe }}</a>
+      <a href="/meista/">{{ "Meistä" | t("About") | safe }}</a>
+      <a href="/yhteystiedot/">{{ "Yhteystiedot" | t("Contact") | safe }}</a>
+    </nav>
+    <a class="tel" href="tel:{{ site.telefono }}">{{ site.telefono_visibile }}</a>
+    <div class="lang" role="group" aria-label="Kieli / Language">
+      <button type="button" id="lang-fi" data-set="fi" aria-pressed="true">FI</button>
+      <button type="button" id="lang-en" data-set="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
