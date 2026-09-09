@@ -1,0 +1,15 @@
+---
+layout: base.njk
+permalink: /404.html
+inSitemap: false
+title: Sivua ei löytynyt
+description: "Sivua ei löytynyt."
+---
+<section>
+  <h2>{{ "Sivua ei löytynyt" | t("Page not found") | safe }}</h2>
+  <p class="intro">{{ "Sivu on ehkä siirretty. Kokeile etusivua tai soita meille." | t("The page may have moved. Try the home page, or give us a call.") | safe }}</p>
+  <div class="cta">
+    <a class="btn solid" href="{{ '/' | url }}" data-fi="Etusivulle" data-en="Go to home page">Etusivulle</a>
+    <a class="btn ghost" href="tel:{{ site.telefono }}">{{ site.telefono_visibile }}</a>
+  </div>
+</section>

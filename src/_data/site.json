@@ -11,19 +11,68 @@
   "citta": "Riihimäki",
   "y_tunnus": "3456789-0",
   "orari": [
-    { "fi": "Maanantai–perjantai", "en": "Monday–Friday", "ore": "9–18" },
-    { "fi": "Lauantai", "en": "Saturday", "ore": "9–15" },
-    { "fi": "Sunnuntai", "en": "Sunday", "ore": "—", "chiuso": true }
+    {
+      "fi": "Maanantai–perjantai",
+      "en": "Monday–Friday",
+      "ore": "9–18"
+    },
+    {
+      "fi": "Lauantai",
+      "en": "Saturday",
+      "ore": "9–15"
+    },
+    {
+      "fi": "Sunnuntai",
+      "en": "Sunday",
+      "ore": "—",
+      "chiuso": true
+    }
   ],
   "servizi": [
-    { "fi": "Balayage ja raidoitus", "en": "Balayage & highlights", "prezzo": "120 €", "da": true, "lead": true },
-    { "fi": "Värjäys, lyhyet hiukset", "en": "Colour, short hair", "prezzo": "85 €", "da": true },
-    { "fi": "Naisten leikkaus, pesu ja muotoilu", "en": "Women's cut, wash and style", "prezzo": "55 €" },
-    { "fi": "Miesten leikkaus", "en": "Men's cut", "prezzo": "32 €" },
-    { "fi": "Lasten leikkaus", "en": "Children's cut", "prezzo": "22 €" },
-    { "fi": "Juhlakampaus", "en": "Occasion styling", "prezzo": "65 €", "da": true },
-    { "fi": "Kulmien muotoilu ja värjäys", "en": "Brow shaping and tint", "prezzo": "28 €" },
-    { "fi": "Ripsienpidennykset, uudet", "en": "Lash extensions, new set", "prezzo": "120 €" }
+    {
+      "fi": "Balayage ja raidoitus",
+      "en": "Balayage & highlights",
+      "prezzo": "120 €",
+      "da": true,
+      "lead": true
+    },
+    {
+      "fi": "Värjäys, lyhyet hiukset",
+      "en": "Colour, short hair",
+      "prezzo": "85 €",
+      "da": true
+    },
+    {
+      "fi": "Naisten leikkaus, pesu ja muotoilu",
+      "en": "Women's cut, wash and style",
+      "prezzo": "55 €"
+    },
+    {
+      "fi": "Miesten leikkaus",
+      "en": "Men's cut",
+      "prezzo": "32 €"
+    },
+    {
+      "fi": "Lasten leikkaus",
+      "en": "Children's cut",
+      "prezzo": "22 €"
+    },
+    {
+      "fi": "Juhlakampaus",
+      "en": "Occasion styling",
+      "prezzo": "65 €",
+      "da": true
+    },
+    {
+      "fi": "Kulmien muotoilu ja värjäys",
+      "en": "Brow shaping and tint",
+      "prezzo": "28 €"
+    },
+    {
+      "fi": "Ripsienpidennykset, uudet",
+      "en": "Lash extensions, new set",
+      "prezzo": "120 €"
+    }
   ],
   "social": {
     "facebook": "",
@@ -33,5 +82,6 @@
     "accento": "#5E3348",
     "inchiostro": "#241A20",
     "sfondo": "#F7F3F1"
-  }
+  },
+  "dominio": "https://negmat03.github.io"
 }

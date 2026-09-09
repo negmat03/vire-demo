@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
-  <loc>/</loc>
-  <loc>/palvelut/</loc>
-  <loc>/meista/</loc>
-  <loc>/yhteystiedot/</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://negmat03.github.io/vire-demo/</loc>
+  </url>
+  <url>
+    <loc>https://negmat03.github.io/vire-demo/palvelut/</loc>
+  </url>
+  <url>
+    <loc>https://negmat03.github.io/vire-demo/meista/</loc>
+  </url>
+  <url>
+    <loc>https://negmat03.github.io/vire-demo/yhteystiedot/</loc>
+  </url>
 </urlset>
